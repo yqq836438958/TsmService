@@ -1,0 +1,17 @@
+
+package com.pacewear.walletservice.common;
+
+public class RunEnv {
+    public static final int PLATFORM_DM = 0;
+    public static final int PLATFORM_WATCH = 1;
+    public static final int PLATFORM_3RD = 2;
+    private static int mPlatformEnv = PLATFORM_DM;
+
+    public static void init() {
+
+    }
+
+    public static int getPlatform() {
+        return mPlatformEnv;
+    }
+}
