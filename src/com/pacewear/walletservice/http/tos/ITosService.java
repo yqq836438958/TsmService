@@ -77,6 +77,14 @@ public interface ITosService {
     public int getOperType();
 
     /**
+     * getReq
+     * 
+     * @param payReqHead
+     * @return
+     */
+    public JceStruct getReq(JceStruct payReqHead);
+
+    /**
      * parse
      * 
      * @param packet

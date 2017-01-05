@@ -9,8 +9,6 @@ import com.pacewear.walletservice.common.SeqGenerator;
 import com.qq.jce.wup.UniPacket;
 import com.qq.taf.jce.JceStruct;
 
-import java.lang.reflect.Field;
-
 import TRom.TSMHead;
 import qrom.component.wup.QRomWupDataBuilder;
 
@@ -177,6 +175,6 @@ public abstract class TosService implements IServerHandlerListener, ITosService,
         }
     }
 
-    // protected abstract TSMHead getTsmHead();
+    protected abstract TSMHead getTsmHead();
 
 }

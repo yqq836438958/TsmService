@@ -19,6 +19,6 @@ public class MainActivity extends ActionBarActivity {
 
     private void testJCE() {
 //        HttpRequestGeneralParams params 
-        HttpManager.getInstance(this).postGeneralHttpRequest(mParams, mHttpResponseListener);
+//        HttpManager.getInstance(this).postGeneralHttpRequest(mParams, mHttpResponseListener);
     }
 }

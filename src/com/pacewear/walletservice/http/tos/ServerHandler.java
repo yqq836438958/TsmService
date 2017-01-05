@@ -9,14 +9,9 @@ import com.pacewear.walletservice.http.tos.IServerHandler;
 import com.pacewear.walletservice.http.tos.IServerHandlerListener;
 import com.pacewear.walletservice.http.watchhttp.DmaServerHandler;
 import com.pacewear.walletservice.http.wuphttp.WupServerHandler;
-import com.qq.jce.wup.UniPacket;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import qrom.component.wup.QRomComponentWupManager;
-import qrom.component.wup.QRomWupReqExtraData;
-import qrom.component.wup.QRomWupRspExtraData;
 
 /**
  * @author baodingzhou
