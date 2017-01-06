@@ -18,6 +18,10 @@ public class HttpUrl {
     }
 
     public String getUrl() {
-        return "";
+        return "http://wtest.html5.qq.com:55555";
+    }
+
+    public String getHttpHost() {
+        return "wtest.html5.qq.com:55555";
     }
 }
